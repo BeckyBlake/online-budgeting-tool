@@ -1,0 +1,7 @@
+/* make the project_h1 header centered */
+.project_h1 {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
