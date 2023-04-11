@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <img alt="" src={Liquid_Lizard} width="130"></img>
+        <img alt="" src={Liquid_Lizard} width="130" style={{marginTop: "10px", marginLeft: "10px"}}></img>
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/contact" element={<Contact />} />
