@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './Login.css';
+import Liquid_Lizard from '../../assets/liquid_lizard.png';
 
 async function loginUser(credentials) {
  return fetch('http://localhost:8080/login', {
@@ -28,7 +29,8 @@ export default function Login({ setToken }) {
 
   return(
     <div className="login-wrapper">
-      <h1>Please Log In</h1>
+      <img alt="" src={Liquid_Lizard} width="130" style={{justifyContent: "center"} }></img>
+      <h1 style={{color: "#1E5AA9"}}>Please Log In</h1>
       <form onSubmit={handleSubmit}>
         <label>
           <p>Username</p>
