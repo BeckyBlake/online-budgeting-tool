@@ -1,0 +1,91 @@
+.heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    /* background-color: red; */
+    text-align: right;
+    margin-right: 100px;
+    margin-top: "0px";
+    font-size: 50px;
+    position: relative;
+    top: -70px;
+    color: #1E5AA9;
+}
+
+div .square {
+    height: 400px;
+    width: 300px;
+    background-color: #ACEEF6;
+    position: absolute;
+    top: 30vh;
+    justify-content: center;
+    left: 20vh;
+    align-self: center;
+    border-radius: 10px;
+}
+
+div .square h3 {
+    font: 20px/24px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #1E5AA9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div .square p {
+    font: 20px/24px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #1E5AA9;
+    text-align: center;
+    padding: 70px 0;
+}
+
+div .square2 {
+    height: 400px;
+    width: 300px;
+    background-color: #ACEEF6;
+    position: absolute;
+    justify-content: center;
+    left: 70vh;
+    align-self: center;
+    border-radius: 10px;
+    top: 30vh;
+}
+
+div .square2 h3 {
+    font: 20px/24px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #1E5AA9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div .square2 p {
+    font: 20px/24px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #1E5AA9;
+    text-align: center;
+    padding: 70px 0;
+}
+
+div .square3 {
+    height: 400px;
+    width: 300px;
+    background-color: #ACEEF6;
+    position: absolute;
+    justify-content: center;
+    left: 120vh;
+    align-self: center;
+    border-radius: 10px;
+    top: 30vh;
+}
+
+div .square3 h3 {
+    font: 20px/24px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #1E5AA9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div .square3 p {
+    font: 20px/24px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #1E5AA9;
+    text-align: center;
+    padding: 70px 0;
+}
