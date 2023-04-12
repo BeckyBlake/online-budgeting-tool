@@ -19,7 +19,7 @@
 
 
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useHref } from 'react-router-dom';
 import './App.css';
 import Dashboard from './Pages/Dashboard';
 import Contact from './Pages/Financial Literacy';
@@ -29,7 +29,7 @@ import useToken from './useToken';
 import NavBar from './Components/NavBar/index';
 import NavigationBar from './Components/NavigationBar/NavigationBar';
 import Liquid_Lizard from './assets/liquid_lizard.png';
-
+import {Link} from "react-router-dom"
 
 function App() {
   const { token, setToken } = useToken();
@@ -42,7 +42,9 @@ function App() {
   return (
     <>
       <div className="container">
-        <img alt="" src={Liquid_Lizard} width="130" style={{marginTop: "10px", marginLeft: "10px"}}></img>
+        <a href='/'>
+          <img alt="" src={Liquid_Lizard} width="130" style={{marginTop: "10px", marginLeft: "10px"} }></img>
+        </a>
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/contact" element={<Contact />} />
