@@ -29,6 +29,7 @@ div .square h3 {
     color: #1E5AA9;
     text-align: center;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 div .square p {
@@ -55,6 +56,7 @@ div .square2 h3 {
     color: #1E5AA9;
     text-align: center;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 div .square2 p {
@@ -81,6 +83,7 @@ div .square3 h3 {
     color: #1E5AA9;
     text-align: center;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 div .square3 p {

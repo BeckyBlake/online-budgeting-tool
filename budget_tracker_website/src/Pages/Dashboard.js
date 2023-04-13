@@ -6,7 +6,7 @@ export default function Dashboard() {
   return(
     // add text to the square and make it look nice
     <div>
-      <h1 class="heading" style={{font: "bold 40px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>Welcome back!</h1>
+      <h1 class="heading" style={{font: "bold 50px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>Welcome back!</h1>
 
       <div class="square">
         <h3>Daily Tip #1</h3>

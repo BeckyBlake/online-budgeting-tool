@@ -2,8 +2,8 @@ import './Financial Literacy.css';
 export default function Contact() {
     return (
         <div>
-        <h1 class="heading" style={{font: "bold 40px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>Financial Literacy</h1>
-        <h3 style={{font: "bold 40px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>Resources</h3>
+        <h1 class="heading" style={{font: "bold 50px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>Financial Literacy</h1>
+        <h3 class="lit-resources" style={{font: "bold 40px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>Resources</h3>
         <ul class="resource-list">
             <li style={{font: "Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>
                 <p>

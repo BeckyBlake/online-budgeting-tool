@@ -21,7 +21,15 @@ function App() {
     <>
       <div className="container">
         <a href='/'>
-          <img alt="" src={Liquid_Lizard} width="130" style={{marginTop: "10px", marginLeft: "10px"} }></img>
+          <img alt="" src={Liquid_Lizard} width="130" style={{
+            marginTop: "10px", 
+            marginLeft: "10px", 
+            // backgroundColor: "red",
+            display: "inline-block",
+            position: "relative",
+            zIndex: "1",
+            padding: "2em",
+            margin: "-2em"} }></img>
         </a>
         <Routes>
           <Route path="/" element={<Dashboard />} />

@@ -14,7 +14,7 @@ export default function About() {
 
     return (
         <div>
-            <h1 className="heading" style={{font: "bold 40px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>
+            <h1 className="heading" style={{font: "bold 50px Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif"}}>
                 Your Budgets
             </h1>
 
