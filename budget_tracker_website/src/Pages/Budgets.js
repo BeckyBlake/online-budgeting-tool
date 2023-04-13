@@ -18,7 +18,8 @@ export default function About() {
                 Your Budgets
             </h1>
 
-            <button className="budget-button" onClick={openModal}>Add Budget</button>
+            <button className="budget-button">Budgets</button>
+            <button className="add-budget-button" onClick={openModal}>Add Budget</button>
 
             {modalVisible && (
                 <div className="modal">
